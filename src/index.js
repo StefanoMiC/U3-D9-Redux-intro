@@ -15,3 +15,7 @@ root.render(
     <App />
   </Provider>
 );
+
+// Provider is a component we're taking from react-redux, the bindings library for a React Application!
+// we're going to wrap our main component, App, into it!
+// Provider doesn't affect the visuals of the Application, just enables the Redux Store
